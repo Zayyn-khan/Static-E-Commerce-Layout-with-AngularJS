@@ -4,6 +4,8 @@ A modern static e-commerce front-end design using AngularJS to showcase products
 =======
 # Project
 
+<img width="2636" height="8412" alt="Image" src="https://github.com/user-attachments/assets/d8026e9e-43b6-42dc-a084-e5454bdb1f5f" />
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.10.
 
 ## Development server
