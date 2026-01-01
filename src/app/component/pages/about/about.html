@@ -1,1 +1,95 @@
 <app-header></app-header>
+
+<style>
+  .about-banner {
+    min-height: 60vh;
+    background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('https://images.unsplash.com/photo-1511499767150-a48a237f0083');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  @media (max-width: 768px) {
+    .about-banner {
+      min-height: 45vh;
+    }
+  }
+
+  .about-mission {
+    background: #000;
+  }
+
+  .gold-text {
+    color: #d4af37; /* Golden */
+  }
+
+  .about-mission img {
+    max-height: 420px;
+    object-fit: cover;
+  }
+</style>
+
+<!-- ABOUT US BANNER SECTION -->
+<section class="about-banner d-flex align-items-center text-center text-white">
+  <div class="container">
+    <h1 class="fw-bold display-5">About Us</h1>
+    <p class="mt-3 fs-5">
+      Premium Sunglasses • Timeless Style • Lens Studio
+    </p>
+  </div>
+</section>
+
+
+
+<!-- ABOUT + MISSION & VISION SECTION -->
+<section class="about-mission py-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- LEFT CONTENT -->
+      <div class="col-lg-6 mb-4 mb-lg-0 text-white">
+        <h2 class="fw-bold mb-3">
+          About <span class="gold-text">Lens Studio</span>
+        </h2>
+
+        <p class="text-light mb-4">
+        Lens Studio is dedicated to delivering premium-quality sunglasses that seamlessly blend modern fashion with timeless elegance. We believe eyewear is more than just an accessory it is a powerful expression of confidence, personality, and lifestyle. Every pair of sunglasses we design is crafted with precision, using high-quality materials to ensure durability, comfort, and superior visual clarity. Our collections are inspired by global fashion trends while staying rooted in classic aesthetics, allowing our customers to make a bold yet refined style statement in every moment.
+        </p>
+
+        <h5 class="gold-text fw-semibold">Our Mission</h5>
+        <p class="text-light mb-3">
+          To provide stylish, durable, and affordable eyewear that enhances
+          everyday life while maintaining exceptional quality standards.
+        </p>
+
+        <h5 class="gold-text fw-semibold">Our Vision</h5>
+        <p class="text-light">
+          To become a trusted global eyewear brand known for innovation,
+          elegance, and customer satisfaction.
+        </p>
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div class="col-lg-6 text-center">
+        <img
+          src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+          alt="Sunglasses"
+          class="img-fluid rounded shadow-lg"
+        />
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<app-footer></app-footer>
+
+
+
